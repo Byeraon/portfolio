@@ -1,0 +1,57 @@
+.App {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+}
+
+.whiteblock {
+  background-color: white;
+  width: 30vw;
+  height: 100vh;
+  
+}
+
+.imageblock {
+  background: url(./images/background.jpg) no-repeat center right;
+  background-size: cover;
+  width: 70vw;
+  height: 100vh;
+  font-family: Mons;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/Montserrat-Bold.ttf") format("woff2");
+ }
+
+ h1 {
+   font-family: Montserrat;
+   position: relative;
+   font-size: 90px;
+   margin: 0;
+   white-space: pre-wrap;
+ }
+
+ h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: relative;
+  font-size: 32px;
+  margin: 0;
+  white-space: pre-wrap;
+  margin-left: 5px
+}
+
+ .textblock {
+  height: 100vh;
+  align-self: center;
+  margin-left: 30vh;
+  position: fixed;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: center;
+   
+ }
